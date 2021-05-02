@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 
-import "./ERC721.sol";
+import "./dependencies/ERC721.sol";
 
 contract MyERC721 is ERC721 {
   using Strings for uint256;
